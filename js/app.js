@@ -53,7 +53,7 @@ for (let i=0; i < sections.length; i++) {
 
   fragment.appendChild(liElement);
 }
-
+navBar.appendChild(fragment);
 
 // Add class 'active' to section when near top of viewport
 function changeActive(actions) {
